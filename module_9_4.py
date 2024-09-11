@@ -11,7 +11,6 @@ def get_advanced_writer(file_name):
         with open(file_name, "a", encoding="utf-8") as file:
             for elem in data_set:
                 file.write(str(elem) + "\n")
-
     return write_everything
 
 
