@@ -10,7 +10,6 @@ class Iterator:
         self.stop = stop
         self.step = step
         self.pointer = start
-        #'шаг не может быть равен 0'
 
     def __iter__(self):
         self.pointer = self.start
